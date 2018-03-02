@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/layout_profiles_list.xml.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/layout/profiles_list.xml"
+    },
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/layout_rule_list.xml.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/layout/rule_list.xml"
+    },
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/layout_bt_device_item.xml.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/layout/bt_device_item.xml"
+    },
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/layout_filter_item.xml.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/layout/filter_item.xml"
+    },
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/layout_edit_profile.xml.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/layout/edit_profile.xml"
+    },
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/layout_rule_item.xml.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/layout/rule_item.xml"
+    },
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/layout_record_context.xml.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/layout/record_context.xml"
+    },
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/layout_create_profile.xml.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/layout/create_profile.xml"
+    },
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/layout_disable_rule_item.xml.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/layout/disable_rule_item.xml"
+    },
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/drawable-ldpi_icon.png.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/layout_create_filter.xml.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/layout/create_filter.xml"
+    },
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/layout_profile_item.xml.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/layout/profile_item.xml"
+    },
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/layout_search_and_save_bt_device.xml.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/layout/search_and_save_bt_device.xml"
+    },
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/drawable-mdpi_icon.png.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/layout_create_rule.xml.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/layout/create_rule.xml"
+    },
+    {
+        "merged": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/res/layout/main.xml"
+    }
+]
