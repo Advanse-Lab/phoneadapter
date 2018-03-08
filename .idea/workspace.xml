@@ -5,11 +5,409 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8e0778b8-baef-4834-bfbb-71393308871a" name="Default" comment="A ve">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/4.2.1/fileHashes/resourceHashesCache.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/4.2.1/javaCompile/jarAnalysis.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes-jar/debug/classes.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/edu/hkust/cse/phoneAdapter/test/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/edu/hkust/cse/phoneAdapter/test/CriacaoDoAmbienteDeTeste.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/edu/hkust/cse/phoneAdapter/test/EntradaDoCasoDeTeste.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/edu/hkust/cse/phoneAdapter/test/ExecucaoAbordagemTeste$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/edu/hkust/cse/phoneAdapter/test/ExecucaoAbordagemTeste.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/edu/hkust/cse/phoneAdapter/test/R$string.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/edu/hkust/cse/phoneAdapter/test/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/app/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/test/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/test/rule/R$string.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/test/rule/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$AdaptationManagerBinder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/ContextManager$ContextManagerBinder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/SaidaDoCasoDeTeste.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6LA5Q0CVocY+5TmTW6rq0LJmJ4w=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/SWWvaNpEhBgB+tdy+U9H17HE070=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ZipKNzUsYsRxI5QtNL508uNS2n0=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/h+RmQ5sxo0VCB+Jay6KegF_axPM=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/rHyGlOuDn4GI+Tq1XLRd80Swe+c=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/xaOqLGEivIL6Ivij161pspbrYas=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/6LA5Q0CVocY+5TmTW6rq0LJmJ4w=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/SWWvaNpEhBgB+tdy+U9H17HE070=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/ZipKNzUsYsRxI5QtNL508uNS2n0=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/h+RmQ5sxo0VCB+Jay6KegF_axPM=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/rHyGlOuDn4GI+Tq1XLRd80Swe+c=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/xaOqLGEivIL6Ivij161pspbrYas=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/merge-state" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debugAndroidTest-mergeJavaRes/zip-cache/zjSTCHRv15aiiW9vQPZuJIHk96Q=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debugAndroidTest-mergeJniLibs/merge-state" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debugAndroidTest-mergeJniLibs/zip-cache/zjSTCHRv15aiiW9vQPZuJIHk96Q=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/H7bKykvsirdABYtdkCBwp7ljkg4=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugAndroidTest/debugAndroidTest/zip-cache/4haUBHGpAOqEjuBn1uZ_67lrRZ0=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugAndroidTest/debugAndroidTest/zip-cache/G0vQ8YdMZuv088joP0ICZ9EBAMo=" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/androidTest/debug/0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/androidTest/debug/1/edu/hkust/cse/phoneAdapter/test/BuildConfig.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/androidTest/debug/1/edu/hkust/cse/phoneAdapter/test/CriacaoDoAmbienteDeTeste.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/androidTest/debug/1/edu/hkust/cse/phoneAdapter/test/EntradaDoCasoDeTeste.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/androidTest/debug/1/edu/hkust/cse/phoneAdapter/test/ExecucaoAbordagemTeste$1.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/androidTest/debug/1/edu/hkust/cse/phoneAdapter/test/ExecucaoAbordagemTeste.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/androidTest/debug/1/edu/hkust/cse/phoneAdapter/test/R$string.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/androidTest/debug/1/edu/hkust/cse/phoneAdapter/test/R.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/android/app/R.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/android/support/test/R.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/android/support/test/rule/R$string.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/android/support/test/rule/R.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/AdaptationManager$AdaptationManagerBinder.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/AdaptationManager$Rule.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/AdaptationManager.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/ContextManager$3.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/ContextManager$ContextManagerBinder.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/ContextManager$MyBroadcastReceiver.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/ContextManager$MyLocationListener.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/ContextManager.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/SaidaDoCasoDeTeste.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/androidTest/debug/0/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/androidTest/debug/0/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/androidTest/debug/0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-11-49-35-870.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-11-49-39-971.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-11-59-33-059.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-11-59-34-309.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-11-59-42-329.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-11-59-48-248.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-12-01-04-007.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-12-01-04-826.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-13-28-58-405.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-14-49-02-917.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-14-58-36-204.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-14-59-05-969.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-15-13-23-284.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-17-06-04-520.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-17-06-05-570.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-17-06-38-355.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-17-07-04-707.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-17-07-05-782.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-17-07-11-340.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-18-52-33-519.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-05-41-424.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-07-16-316.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-07-46-513.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-08-40-876.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-18-52-131.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-21-58-482.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-21-59-415.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-22-07-335.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-23-32-231.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-23-41-587.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-23-57-002.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-23-57-559.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-24-12-030.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_annotations_23_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_exposed_instrumentation_api_publish_0_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_rules_0_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_runner_0_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_jayway_android_robotium_robotium_solo_5_2_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_hamcrest_hamcrest_core_1_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/app/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/test/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/test/rule/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/androidTest/debug/multi-v2/debug.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/androidTest/debug/multi-v2/values.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestJniLibFolders/merger.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestShaders/merger.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugAndroidTest/debugAndroidTest/dex-renamer-state.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebugAndroidTest/debugAndroidTest/file-input-save-data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/javaPrecompile/androidTest/debug/annotationProcessors.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/androidTest/debug/__content__.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/androidTest/debug/__content__.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/androidTest/debug/__content__.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/androidTest/debug/__content__.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJniLibs/androidTest/debug/__content__.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/outputs/apk/androidTest/debug/output.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/bundleAppClassesDebug/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/androidTest/java/edu/hkust/cse/phoneAdapter/test/CriacaoDoAmbienteDeTeste.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/androidTest/java/edu/hkust/cse/phoneAdapter/test/EntradaDoCasoDeTeste.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/androidTest/java/edu/hkust/cse/phoneAdapter/test/ExecucaoAbordagemTeste.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/context/SaidaDoCasoDeTeste.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-11-49-35-870.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-11-49-39-971.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-11-59-33-059.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-11-59-34-309.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-11-59-42-329.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-11-59-48-248.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-12-01-04-007.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-12-01-04-826.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-13-28-58-405.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-14-49-02-917.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-14-58-36-204.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-14-59-05-969.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-15-13-23-284.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-17-06-04-520.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-17-06-05-570.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-17-06-38-355.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-17-07-04-707.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-17-07-05-782.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-17-07-11-340.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-18-52-33-519.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-05-41-424.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-07-16-316.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-07-46-513.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-08-40-876.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-18-52-131.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-21-58-482.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-21-59-415.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-22-07-335.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-23-32-231.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-23-41-587.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-23-57-002.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-23-57-559.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-03-05-19-24-12-030.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/AdaptationManager$Rule.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/AdaptationManager.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/ContextManager$3.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/ContextManager$MyBroadcastReceiver.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/ContextManager$MyLocationListener.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/ContextManager.dex" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/BuildConfig.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/BuildConfig.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/R$array.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/R$array.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/R$color.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/R$color.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/R$drawable.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/R$id.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/R$layout.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/R$string.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/R.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/R.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$2$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$2$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$2$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$2$2.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$2.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$3.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$4$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$4$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$4$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$4$2.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$4.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$5.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$MyLocationListener.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$MyLocationListener.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$2.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$3.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$4.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$5.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$6.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$6.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$7.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$7.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity$1$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity$1$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity$1$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity$1$2.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity$2.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$2.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$3.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$4.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$5$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$5$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$5$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$5$2.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$5.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$6.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$6.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$2.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$3.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$4.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$5.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$6.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$6.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$7.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$7.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditProfileActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditProfileActivity$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditProfileActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditProfileActivity$2.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditProfileActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditProfileActivity.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$2.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$3.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$4.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$5.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$6.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$6.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/MainActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/MainActivity$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/MainActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/MainActivity$2.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/MainActivity$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/MainActivity$3.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/MainActivity$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/MainActivity$4.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/MainActivity$5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/MainActivity$5.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/MainActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/MainActivity.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$2$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$2$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$2$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$2$2.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$2.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$3.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/ViewProfileActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/ViewProfileActivity.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/ViewRuleActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/ViewRuleActivity$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/activity/ViewRuleActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/activity/ViewRuleActivity.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/AdaptationManager$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/AdaptationManager$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/AdaptationManager$Filter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/AdaptationManager$Filter.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$2.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$3.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$4.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$5.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$6.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$6.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$7.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$7.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$8.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$8.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/AdaptationManager$Profile.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/AdaptationManager$Profile.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/ContextManager$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/ContextManager$1.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/ContextManager$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/ContextManager$2.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/ContextName.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/ContextName.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/ContextOperator.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/ContextOperator.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/context/ContextType.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/context/ContextType.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/database/MyDbAdapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/database/MyDbAdapter.dex" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/edu/hkust/cse/phoneAdapter/database/MyDbHelper.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6/edu/hkust/cse/phoneAdapter/database/MyDbHelper.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.2.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.2.1/fileHashes/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.2.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.2.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.2.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.2.1/javaCompile/classAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.2.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.2.1/javaCompile/javaCompile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.2.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.2.1/javaCompile/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.2.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.2.1/javaCompile/taskJars.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.2.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.2.1/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.2.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.2.1/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.2.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.2.1/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$2$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$4$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$4$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$4$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$MyLocationListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity$MyLocationListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$5$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$5$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$5$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditProfileActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditProfileActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditProfileActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditProfileActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditProfileActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditProfileActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/MainActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/MainActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$2$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/ViewProfileActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/ViewProfileActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/ViewRuleActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/ViewRuleActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/ViewRuleActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/activity/ViewRuleActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$Filter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$Filter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$MyBroadcastReceiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$Profile.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$Profile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$Rule.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager$Rule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/AdaptationManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/ContextManager$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/ContextManager$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/ContextManager$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/ContextManager$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/ContextManager$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/ContextManager$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/ContextManager$MyBroadcastReceiver.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/ContextManager$MyBroadcastReceiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/ContextManager$MyLocationListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/ContextManager$MyLocationListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/ContextManager.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/hkust/cse/phoneAdapter/context/ContextManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/androidTest/debug/resources-debugAndroidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/androidTest/debug/resources-debugAndroidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneAdapter.iml" afterPath="$PROJECT_DIR$/PhoneAdapter.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/androidTest/debug/edu/hkust/cse/phoneAdapter/test/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/androidTest/debug/edu/hkust/cse/phoneAdapter/test/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/CreateContextConstantActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/CreateFilterActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/CreateProfileActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/CreateRuleActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/EditFilterActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/EditProfileActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/EditProfileActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/EditRuleActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/SearchAndSaveBTDevice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/ViewProfileActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/ViewProfileActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/ViewRuleActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/activity/ViewRuleActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/context/AdaptationManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/context/AdaptationManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/context/ContextManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/context/ContextManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,22 +431,42 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ContextManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/context/ContextManager.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ExecucaoAbordagemTeste.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/edu/hkust/cse/phoneAdapter/test/ExecucaoAbordagemTeste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="6239">
+              <caret line="600" column="54" lean-forward="false" selection-start-line="600" selection-start-column="54" selection-end-line="600" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdaptationManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CriacaoDoAmbienteDeTeste.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/edu/hkust/cse/phoneAdapter/test/CriacaoDoAmbienteDeTeste.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdaptationManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/context/AdaptationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-116">
-              <caret line="500" column="13" lean-forward="true" selection-start-line="500" selection-start-column="13" selection-end-line="500" selection-end-column="13" />
+            <state relative-caret-position="1836">
+              <caret line="131" column="16" lean-forward="false" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -59,6 +477,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>checkRules</find>
+      <find>CriacaoDoAmbienteDeTeste</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1722,6 +2141,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/context/AdaptationManager.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/edu/hkust/cse/phoneAdapter/test/ExecucaoAbordagemTeste.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/context/ContextManager.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -1729,7 +2151,9 @@
     <option name="width" value="1920" />
     <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
@@ -1746,6 +2170,36 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhoneAdapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhoneAdapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhoneAdapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhoneAdapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1782,7 +2236,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="phoneAdapter" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1799,75 +2253,16 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phoneAdapter" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="context" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhoneAdapter" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phoneAdapter" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhoneAdapter" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhoneAdapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhoneAdapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="device.picker.selection" value="47901e85c7c13027" />
+    <property name="android.profiler.active" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1881,7 +2276,151 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Android Instrumented Tests.ExecucaoAbordagemTeste">
+    <configuration default="false" name="ExecucaoAbordagemTeste" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="edu.hkust.cse.phoneAdapter.test.ExecucaoAbordagemTeste" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+      <method>
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520536528451" />
+      </method>
+    </configuration>
+    <configuration default="false" name="Tests in 'edu.hkust.cse.phoneAdapter.test'" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="1" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="edu.hkust.cse.phoneAdapter.test" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+      <method>
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520536528451" />
+      </method>
+    </configuration>
+    <configuration default="false" name="CriacaoDoAmbienteDeT..." type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="edu.hkust.cse.phoneAdapter.test.CriacaoDoAmbienteDeTeste" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+      <method>
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520536528451" />
+      </method>
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1952,7 +2491,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520255754705" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520536528451" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2000,7 +2539,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520255754705" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520536528451" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2032,6 +2571,27 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2162,12 +2722,22 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520255754706" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520536528452" />
       </method>
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Android App.app" />
+      <item index="1" class="java.lang.String" itemvalue="Android Instrumented Tests.ExecucaoAbordagemTeste" />
+      <item index="2" class="java.lang.String" itemvalue="Android Instrumented Tests.Tests in 'edu.hkust.cse.phoneAdapter.test'" />
+      <item index="3" class="java.lang.String" itemvalue="Android Instrumented Tests.CriacaoDoAmbienteDeT..." />
     </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Android Instrumented Tests.ExecucaoAbordagemTeste" />
+        <item index="1" class="java.lang.String" itemvalue="Android Instrumented Tests.CriacaoDoAmbienteDeT..." />
+        <item index="2" class="java.lang.String" itemvalue="Android Instrumented Tests.Tests in 'edu.hkust.cse.phoneAdapter.test'" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -2208,38 +2778,69 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CriacaoDoAmbienteDeT___ - 2018.03.08 at 16h 07m 42s.xml">
+      <configuration name="CriacaoDoAmbienteDeT..." configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CriacaoDoAmbienteDeT___ - 2018.03.08 at 16h 14m 48s.xml">
+      <configuration name="CriacaoDoAmbienteDeT..." configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ExecucaoAbordagemTeste - 2018.03.05 at 19h 18m 55s.xml">
+      <configuration name="ExecucaoAbordagemTeste" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ExecucaoAbordagemTeste - 2018.03.05 at 19h 22m 25s.xml">
+      <configuration name="ExecucaoAbordagemTeste" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ExecucaoAbordagemTeste - 2018.03.05 at 19h 24m 25s.xml">
+      <configuration name="ExecucaoAbordagemTeste" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ExecucaoAbordagemTeste - 2018.03.08 at 15h 28m 47s.xml">
+      <configuration name="ExecucaoAbordagemTeste" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ExecucaoAbordagemTeste - 2018.03.08 at 15h 29m 34s.xml">
+      <configuration name="ExecucaoAbordagemTeste" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ExecucaoAbordagemTeste - 2018.03.08 at 15h 40m 03s.xml">
+      <configuration name="ExecucaoAbordagemTeste" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ExecucaoAbordagemTeste - 2018.03.08 at 16h 15m 16s.xml">
+      <configuration name="ExecucaoAbordagemTeste" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Tests_in_'edu_hkust_cse_phoneAdapter_test' - 2018.03.05 at 15h 13m 58s.xml">
+      <configuration name="Tests in 'edu.hkust.cse.phoneAdapter.test'" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49786553" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.48030302" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18201517" sideWeight="0.51067233" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.291889" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.69156885" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49786553" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.48932764" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.30843115" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15955175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28762007" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.49786553" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.48932764" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2256,6 +2857,61 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/edu/hkust/cse/phoneAdapter/test/ExecucaoAbordagemTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6239">
+          <caret line="600" column="54" lean-forward="false" selection-start-line="600" selection-start-column="54" selection-end-line="600" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/edu/hkust/cse/phoneAdapter/test/CriacaoDoAmbienteDeTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/context/AdaptationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="131" column="16" lean-forward="false" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/edu/hkust/cse/phoneAdapter/test/ExecucaoAbordagemTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/context/ContextManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/context/AdaptationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8500">
+          <caret line="500" column="13" lean-forward="true" selection-start-line="500" selection-start-column="13" selection-end-line="500" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/import-summary.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2270,11 +2926,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/context/ContextManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jayway.android.robotium/robotium-solo/5.2.1/d006b2b28f6107c556c590b799fd495683456eab/robotium-solo-5.2.1-sources.jar!/com/robotium/solo/Solo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Rule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="67" column="18" lean-forward="false" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/test/rules/0.4.1/rules-0.4.1-sources.jar!/android/support/test/rule/ServiceTestRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3629">
+          <caret line="93" column="11" lean-forward="false" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2286,18 +2969,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/context/ContextManager.java">
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/context/SaidaDoCasoDeTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/edu/hkust/cse/phoneAdapter/test/EntradaDoCasoDeTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/edu/hkust/cse/phoneAdapter/test/ExecucaoAbordagemTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6239">
+          <caret line="600" column="54" lean-forward="false" selection-start-line="600" selection-start-column="54" selection-end-line="600" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/edu/hkust/cse/phoneAdapter/test/CriacaoDoAmbienteDeTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/hkust/cse/phoneAdapter/context/AdaptationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="500" column="13" lean-forward="true" selection-start-line="500" selection-start-column="13" selection-end-line="500" selection-end-column="13" />
+        <state relative-caret-position="1836">
+          <caret line="131" column="16" lean-forward="false" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding />
         </state>
       </provider>

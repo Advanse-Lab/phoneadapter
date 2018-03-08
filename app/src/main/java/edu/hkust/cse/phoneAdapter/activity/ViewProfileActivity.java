@@ -9,10 +9,11 @@ import android.view.ContextMenu.ContextMenuInfo;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
-import android.widget.AdapterView.AdapterContextMenuInfo;
+
 import edu.hkust.cse.phoneAdapter.R;
 import edu.hkust.cse.phoneAdapter.database.MyDbAdapter;
 
