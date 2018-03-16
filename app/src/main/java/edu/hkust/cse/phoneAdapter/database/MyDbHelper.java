@@ -5,6 +5,14 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.io.IOException;
+
 /**
  * The Class MyDbHelper.
  * @author andrew
@@ -12,6 +20,7 @@ import android.util.Log;
 public class MyDbHelper extends SQLiteOpenHelper {
 
 	private static final String DB_NAME = "phoneAdapterData";
+	private Context context = null;
 	
 	private static final int DB_VERSION = 2;
 	
@@ -43,16 +52,25 @@ public class MyDbHelper extends SQLiteOpenHelper {
 	 */
 	public MyDbHelper(Context c) {
 		super(c, DB_NAME, null, DB_VERSION);
+		context = c;
 	}
 
 	@Override
-	public void onCreate(SQLiteDatabase database) {
+	public void onCreate(SQLiteDatabase database)  {
 		database.execSQL(CREATE_RULE_TABLE);
 		database.execSQL(CREATE_FILTER_TABLE);
 		database.execSQL(CREATE_PROFILE_TABLE);
 		database.execSQL(CREATE_CONTEXT_CONSTANT_TABLE);
+		try
+        {
+            InputStream is = context.getResources().getAssets().open("SQLScript.sql");
+            String sql= convertStreamToString(is);
+            database.execSQL(sql);
+        }catch (IOException ex)
+        {
+            ex.printStackTrace();
+        }
 	}
-
 	@Override
 	public void onUpgrade(SQLiteDatabase database, int oldVersion, int newVersion) {
 		Log.w(MyDbHelper.class.getName(),
@@ -64,4 +82,20 @@ public class MyDbHelper extends SQLiteOpenHelper {
 		database.execSQL("DROP TABLE IF EXISTS context");
 		onCreate(database);
 	}
+
+    public static String convertStreamToString(InputStream is) throws IOException {
+        Writer writer = new StringWriter();
+        char[] buffer = new char[2048];
+        try {
+            Reader reader = new BufferedReader(new InputStreamReader(is,"UTF-8"));
+            int n;
+            while ((n = reader.read(buffer)) != -1) {
+                writer.write(buffer, 0, n);
+            }
+        } finally {
+            is.close();
+        }
+        String text = writer.toString();
+        return text;
+    }
 }
