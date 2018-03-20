@@ -17,8 +17,7 @@
     <application
         android:debuggable="true"
         android:icon="@drawable/icon"
-        android:label="@string/app_name"
-        android:testOnly="true" >
+        android:label="@string/app_name" >
         <activity android:name="edu.hkust.cse.phoneAdapter.activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
