@@ -148,10 +148,6 @@ ADDED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidMan
 		ADDED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:28:19-76
 	android:name
 		ADDED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:28:77-123
-service#edu.hkust.cse.phoneAdapter.context.ContextManager
-ADDED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:29:9-67
-	android:name
-		ADDED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:29:18-56
 service#edu.hkust.cse.phoneAdapter.context.AdaptationManager
 ADDED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:30:9-70
 	android:name

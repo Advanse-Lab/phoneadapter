@@ -26,7 +26,7 @@
         <activity android:name=".activity.EditFilterActivity" android:label="@string/edit_filter_activity_label"></activity>
         <activity android:name=".activity.CreateContextConstantActivity" android:label="@string/create_context_constant_activity_label"></activity>
         <activity android:label="@string/search_save_device_activity_label" android:name=".activity.SearchAndSaveBTDevice"></activity>
-        <service android:name=".context.ContextManager"></service>
+
         <service android:name=".context.AdaptationManager"></service>
     </application>
 </manifest>

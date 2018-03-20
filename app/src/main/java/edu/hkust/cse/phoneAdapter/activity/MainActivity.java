@@ -12,7 +12,11 @@ import android.widget.Button;
 
 import edu.hkust.cse.phoneAdapter.R;
 import edu.hkust.cse.phoneAdapter.context.AdaptationManager;
-import edu.hkust.cse.phoneAdapter.context.ContextManager;
+
+import edu.hkust.cse.phoneAdapter.context.ContextManagerBluetooth;
+import edu.hkust.cse.phoneAdapter.context.ContextManagerGPS;
+import edu.hkust.cse.phoneAdapter.context.ContextManagerWeekDay;
+import edu.hkust.cse.phoneAdapter.context.ContextManagerTime;
 
 /**
  * The main activity of PhoneAdapter.
@@ -62,8 +66,19 @@ public class MainActivity extends Activity {
          * (1) ContextManager intentService retrieves sensing data from both logical (e.g., clock) and physical (e.g., GPS) sensors
          * (2) AdaptationManager evaluates active rules upon context change, and triggers the actions specified in the satisfied rule
          */
-        Intent contextManagerIntent=new Intent(this, ContextManager.class);
-        startService(contextManagerIntent);
+		Intent contextManagerBluetoothIntent=new Intent(this, ContextManagerBluetooth.class);
+		startService(contextManagerBluetoothIntent);
+
+		Intent contextManagerGPSIntent=new Intent(this, ContextManagerGPS.class);
+		startService(contextManagerGPSIntent);
+
+		Intent contextManagerTimeIntent=new Intent(this, ContextManagerTime.class);
+		startService(contextManagerTimeIntent);
+
+		Intent contextManagerWeekDayIntent=new Intent(this, ContextManagerWeekDay.class);
+		startService(contextManagerWeekDayIntent);
+
+
         Intent adaptationManagerIntent=new Intent(this, AdaptationManager.class);
         startService(adaptationManagerIntent);
         
@@ -171,10 +186,27 @@ public class MainActivity extends Activity {
    }  
     
    private void startService(){
-	   if(!ContextManager.isRunning()){
-		   Intent contextManagerIntent=new Intent(this, ContextManager.class);
-	       startService(contextManagerIntent);
+	   if(!ContextManagerBluetooth.isRunning()){
+		   Intent contextManagerBluetoothIntent=new Intent(this, ContextManagerBluetooth.class);
+	       startService(contextManagerBluetoothIntent);
 	   }
+	   if(!ContextManagerGPS.isRunning()){
+		   Intent contextManagerGPSIntent=new Intent(this, ContextManagerGPS.class);
+		   startService(contextManagerGPSIntent);
+	   }
+
+	   if(!ContextManagerTime.isRunning()){
+		   Intent contextManagerTimeIntent=new Intent(this, ContextManagerTime.class);
+		   startService(contextManagerTimeIntent);
+	   }
+
+	   if(!ContextManagerWeekDay.isRunning()){
+		   Intent contextManagerWeekDayIntent=new Intent(this, ContextManagerWeekDay.class);
+		   startService(contextManagerWeekDayIntent);
+	   }
+
+
+
 	   if(!AdaptationManager.isRunning()){
 		   Intent adaptationManagerIntent=new Intent(this, AdaptationManager.class);
 	       startService(adaptationManagerIntent);
@@ -182,8 +214,8 @@ public class MainActivity extends Activity {
    }
    
    private void stopService(){
-	   if(ContextManager.isRunning() || AdaptationManager.isRunning()){
-		   /* stop the ContextManager and Adaptation Manager service before destroying the main activity */
+	   if(ContextManagerWeekDay.isRunning() || ContextManagerTime.isRunning() || ContextManagerGPS.isRunning() || ContextManagerBluetooth.isRunning() || AdaptationManager.isRunning()){
+		   /* stop all the ContextManager and Adaptation Manager service before destroying the main activity */
 	    	Intent i=new Intent("edu.hkust.cse.phoneAdapter.stopService");
 	    	sendBroadcast(i);
 	   }
