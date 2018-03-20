@@ -14,6 +14,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
 import edu.hkust.cse.phoneAdapter.R;
 import edu.hkust.cse.phoneAdapter.context.ContextType;
 import edu.hkust.cse.phoneAdapter.database.MyDbAdapter;

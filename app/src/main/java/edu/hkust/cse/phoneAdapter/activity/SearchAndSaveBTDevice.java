@@ -1,7 +1,5 @@
 package edu.hkust.cse.phoneAdapter.activity;
 
-import java.util.ArrayList;
-import java.util.Set;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -21,6 +19,10 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.Set;
+
 import edu.hkust.cse.phoneAdapter.R;
 import edu.hkust.cse.phoneAdapter.context.ContextType;
 import edu.hkust.cse.phoneAdapter.database.MyDbAdapter;

@@ -1,12 +1,5 @@
 package edu.hkust.cse.phoneAdapter.context;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-
 import android.app.IntentService;
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -19,11 +12,21 @@ import android.content.IntentFilter;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.os.Binder;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
+import android.os.IBinder;
 import android.util.Log;
 import android.widget.Toast;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+
 import edu.hkust.cse.phoneAdapter.R;
 import edu.hkust.cse.phoneAdapter.activity.MainActivity;
 
@@ -31,88 +34,105 @@ import edu.hkust.cse.phoneAdapter.activity.MainActivity;
  * The Class ContextManager.
  * @author andrew
  */
+//[SERVICE-EA-BEGIN-ContextManager]
 public class ContextManager extends IntentService {
-	private boolean mGpsAvailable;
-	
-	private String mLocation;
-	
-	private double mSpeed;
-	
-	private ArrayList<String> mBtDeviceList;
-	
-	private String mTime;
-	
-	private String mWeekday;
-	
+
+	public SaidaDoCasoDeTeste SaidaDoCasoDeTeste = null;
+	public static boolean EmTeste = false;
+
+	public boolean mGpsAvailable;
+
+	public String mLocation;
+
+	public double mSpeed;
+
+	public ArrayList<String> mBtDeviceList;
+
+	public String mTime;
+
+	public String mWeekday;
+
 	private SimpleDateFormat mTimeFormat;
-	
+
+	//[RG-EA-Clock]
 	private Calendar mCal;
-	
+
+	//[RG-EA-GPS]
 	private LocationManager mLocManager;
-	
+
 	private long mLastTime;
-	
+
 	private String mLastLocation;
-	
+
 	private Handler mHandler;
-	
+
+	//[RG-EA-Bluetooth]
 	private BluetoothAdapter mBtAdapter;
-	
-	private MyBroadcastReceiver mReceiver;
-	
+
+	public MyBroadcastReceiver mReceiver;
+
 	private boolean mStop;
-	
+
 	private static final String TAG = "PhoneAdapterContextLog";
-	
+
 	private BufferedWriter bw;
-	
+
 	private BufferedWriter bwService;
-	
-	private LocationListener mLocListener;
-	
+
+	public LocationListener mLocListener;
+
 	private static boolean running;
-	
+
 	/**
 	 * Instantiates a new context manager.
 	 */
 	public ContextManager(){
 		super("ContextManager");
 	}
-	
+
+	//[THREAD-EA-BEGIN-onCreate]
 	@Override
 	public void onCreate() {
 		super.onCreate();
-		
-		mLocManager=(LocationManager) getSystemService(LOCATION_SERVICE);
-		mLocListener=new MyLocationListener();
-		mLocManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,0, 0, mLocListener);
-		
+
+		mLocListener = new MyLocationListener();
+		//Sensor de lugar
+		if(!EmTeste) {
+			mLocManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+			mLocManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, mLocListener);
+		}
+
 		mBtDeviceList=new ArrayList<String>();
 		mCal=Calendar.getInstance();
 		mTimeFormat=new SimpleDateFormat("HH:mm:ss");
 		mLastTime=0;
 		mHandler=new Handler();
-		
+
 		mBtAdapter=BluetoothAdapter.getDefaultAdapter();
 		if(mBtAdapter==null){
+			//[IMPREVISIBILIDADE-TRACE]
 			Toast.makeText(getApplicationContext(), "Bluetooth is not supported on this device!", Toast.LENGTH_SHORT).show();
 		} else{
 			mBtAdapter.enable();
 		}
-		mReceiver=new MyBroadcastReceiver();
-		IntentFilter iFilter = new IntentFilter();
-		iFilter.addAction("edu.hkust.cse.phoneAdapter.stopService");
-		if(mBtAdapter != null){
-			if(mBtAdapter.isEnabled()){
-				iFilter.addAction(BluetoothDevice.ACTION_FOUND);
-				iFilter.addAction(BluetoothAdapter.ACTION_DISCOVERY_STARTED);
-				iFilter.addAction(BluetoothAdapter.ACTION_DISCOVERY_FINISHED);
+
+		mReceiver = new MyBroadcastReceiver();
+		if(!EmTeste) {
+			IntentFilter iFilter = new IntentFilter();
+			iFilter.addAction("edu.hkust.cse.phoneAdapter.stopService");
+			if (mBtAdapter != null) {
+				if (mBtAdapter.isEnabled()) {
+					iFilter.addAction(BluetoothDevice.ACTION_FOUND);
+					iFilter.addAction(BluetoothAdapter.ACTION_DISCOVERY_STARTED);
+					iFilter.addAction(BluetoothAdapter.ACTION_DISCOVERY_FINISHED);
+				}
 			}
+			registerReceiver(mReceiver, iFilter);
 		}
-		registerReceiver(mReceiver, iFilter);
+
 		mStop=false;
 		mLocation=new String();
-		
+
 		/* create a buffered writer to write context data to sd card */
 		File dir = Environment.getExternalStorageDirectory();
 		if(dir != null && dir.canWrite()){
@@ -126,9 +146,10 @@ public class ContextManager extends IntentService {
 				Log.e(TAG, "cannot log context, "+e.getMessage());
 			}
 		} else{
+			//[IMPREVISIBILIDADE-TRACE]
 			Toast.makeText(getApplicationContext(), "No writtable SD card!", Toast.LENGTH_SHORT).show();
 		}
-		
+
 		/* for experiment, to study how service got destroyed */
 		if(dir != null && dir.canWrite()){
 			File file = new File(dir + "/serviceLog");
@@ -143,16 +164,17 @@ public class ContextManager extends IntentService {
 				Log.e(TAG, "cannot log service life cycle issues, "+e.getMessage());
 			}
 		} else{
+			//[IMPREVISIBILIDADE-TRACE]
 			Toast.makeText(getApplicationContext(), "No writtable SD card!", Toast.LENGTH_SHORT).show();
 		}
-		
+
 		/**start foreground service**/
 		// step 1: instantiate the notification
 		int icon = R.drawable.icon;
 		CharSequence tickerText = "hello";
 		long when = System.currentTimeMillis();
 		Notification noti = new Notification(icon, tickerText, when);
-		
+
 		//step 2: define the notification's message and PendingIntent
 		Context context = getApplicationContext();
 		CharSequence contentTitle = "PhoneAdapter";
@@ -160,17 +182,20 @@ public class ContextManager extends IntentService {
 		Intent notiIntent = new Intent(this, MainActivity.class);
 		PendingIntent contentIntent = PendingIntent.getActivity(context, 0, notiIntent, 0);
 		noti.setLatestEventInfo(context, contentTitle, contentText, contentIntent);
-		
+
 		startForeground(1346, noti);
-		
+
 		ContextManager.running = true;
 	}
-	
+	//[THREAD-EA-END-onCreate]
+
 	@Override
 	public void onDestroy() {
 		try{
-			unregisterReceiver(mReceiver);
-			mLocManager.removeUpdates(mLocListener);
+			if(!EmTeste) {
+				unregisterReceiver(mReceiver);
+				mLocManager.removeUpdates(mLocListener);
+			}
 			bw.flush();
 			bw.close();
 			bwService.write(mCal.getTime().toString()+ "service stops" +System.getProperty("line.separator"));
@@ -180,20 +205,23 @@ public class ContextManager extends IntentService {
 			mHandler.post(new Runnable() {
 				@Override
 				public void run() {
+					//[IMPREVISIBILIDADE-TRACE]
 					Toast.makeText(getApplicationContext(), "Failed to unregister broadcast receiver!", Toast.LENGTH_SHORT).show();
 				}
 			});
 		}
 		/**stop foreground service**/
 		stopForeground(true);
-		
+
 		ContextManager.running = false;
-		
+
 		super.onDestroy();
 	}
 
 	@Override
-	protected void onHandleIntent(Intent arg0) {
+	//[INTERATION-EA-EVENT-BEGIN-devido à herança de intentservice]
+	//[RG-SENSOR-GET-BEGIN]
+	public void onHandleIntent(Intent arg0) {
 		/*
 		 * collect contexts every a while and broadcast the context change
 		 * context type includes
@@ -205,58 +233,72 @@ public class ContextManager extends IntentService {
 		 * (6) time
 		 * (7) weekday
 		 */
+		//[GA-MONITOR-BEGIN-coleta informações dos sensores para determinar contexto]
 		while(!mStop){
-
 			/* get weekday */
+			//[GA-MONITOR-GETDATA-BEGIN-dataHora]
 			mCal=Calendar.getInstance();
-			mTime=mTimeFormat.format(mCal.getTime());
+			//[GA-MONITOR-GETDATA-END-dataHora]
+
+			SaidaDoCasoDeTeste saida = new SaidaDoCasoDeTeste();
+			saida.setCalendar(mCal);
+
+			//[GA-MONITOR-PREPROCESS-BEGIN - de DataHora para Dia da semana]
+			if(!EmTeste)
+				mTime=mTimeFormat.format(mCal.getTime());
+
 			switch(mCal.get(Calendar.DAY_OF_WEEK)){
-			case 1:
-				mWeekday="sunday";
-				break;
-			case 2:
-				mWeekday="monday";
-				break;
-			case 3:
-				mWeekday="tuesday";
-				break;
-			case 4:
-				mWeekday="wednesday";
-				break;
-			case 5:
-				mWeekday="thursday";
-				break;
-			case 6:
-				mWeekday="friday";
-				break;
-			case 7:
-				mWeekday="saturday";
-				break;
-			default:
-				break;
+				case 1:
+					mWeekday="sunday";
+					break;
+				case 2:
+					mWeekday="monday";
+					break;
+				case 3:
+					mWeekday="tuesday";
+					break;
+				case 4:
+					mWeekday="wednesday";
+					break;
+				case 5:
+					mWeekday="thursday";
+					break;
+				case 6:
+					mWeekday="friday";
+					break;
+				case 7:
+					mWeekday="saturday";
+					break;
+				default:
+					break;
 			}
-			
+			//[GA-MONITOR-PREPROCESS-END - de DataHora para Dia da semana]
+
 			if(mBtAdapter != null){
 				/* start a new thread to perform Bluetooth device search */
 				if(!mBtAdapter.isEnabled()){
 					mHandler.post(new Runnable() {
-					@Override
-					public void run() {
-						Toast.makeText(getApplicationContext(), "enabling bt adapter.", Toast.LENGTH_SHORT).show();
-					}
-				});
+						@Override
+						public void run() {
+							//[IMPREVISIBILIDADE-TRACE]
+							Toast.makeText(getApplicationContext(), "enabling bt adapter.", Toast.LENGTH_SHORT).show();
+						}
+					});
 					mBtAdapter.enable();
 				}
 				mBtAdapter.cancelDiscovery();
 				mBtAdapter.startDiscovery();
 			}
-			
+
 			mHandler.post(new Runnable() {
 				@Override
 				public void run() {
 					/* broadcast new context*/
+					//[GA-MONITOR-UPDATE-BEGIN]
 					Intent i=new Intent();
+					//[GA-MONITOR-FLAGANALISADOR-BEGIN-sinaliza um novo contexto gerado]
 					i.setAction("edu.hkust.cse.phoneAdapter.newContext");
+					//[GA-MONITOR-FLAGANALISADOR-END-sinaliza um novo contexto gerado]
 					i.putExtra(ContextName.GPS_AVAILABLE, mGpsAvailable);
 					i.putExtra(ContextName.GPS_LOCATION, mLocation);
 					i.putExtra(ContextName.GPS_SPEED, mSpeed);
@@ -265,8 +307,9 @@ public class ContextManager extends IntentService {
 					i.putExtra(ContextName.TIME,mTime);
 					i.putExtra(ContextName.WEEKDAY, mWeekday);
 					sendBroadcast(i);
-					
-					/* log context data */
+					//[GA-MONITOR-UPDATE-END-sinaliza um novo contexto gerado]
+
+					/* Log de contexto para analise  */
 					StringBuffer sb = new StringBuffer();
 					sb.append(mGpsAvailable);
 					sb.append('@');
@@ -283,8 +326,10 @@ public class ContextManager extends IntentService {
 					sb.append(mTime);
 					sb.append('@');
 					sb.append(mWeekday);
-					Log.i(TAG, sb.toString());
-					
+
+					/* Log de contexto para analise  */
+					Log.i("Testing-SA-Entrada", sb.toString());
+
 					/* write context-data to external storage (SD card) */
 					String eol = System.getProperty("line.separator");
 					if(bw != null){
@@ -292,7 +337,7 @@ public class ContextManager extends IntentService {
 							bw.write(sb.toString() + eol);
 							bw.flush();
 //							mHandler.post(new Runnable() {
-//								
+//
 //								@Override
 //								public void run() {
 //									Toast.makeText(getApplicationContext(), "one entry added", Toast.LENGTH_SHORT).show();
@@ -304,14 +349,25 @@ public class ContextManager extends IntentService {
 					}
 				}
 			});
+
+			if(EmTeste)
+				return;
+
 			try{
+				//[INTERATION-EA-TIME-BEGIN-a cada 2 minutos o codigo deste bloco é executado]
+				//[GA-MONITOR-REINICIA-BEGIN-a cada 2 minutos o codigo deste bloco é executado]
 				Thread.sleep(120000);
+				//[GA-MONITOR-REINICIA-END-a cada 2 minutos o codigo deste bloco é executado]
+				//[INTERATION-EA-TIME-END-a cada 2 minutos o codigo deste bloco é executado]
 			} catch(Exception e){
 				Log.e("edu.hkust.cse.phoneAdapter.error", "Thread sleep exception");
 			}
 		}
+		//[GA-MONITOR-END-coleta informações dos sensores para determinar contexto]
 	}
-	
+	//[RG-SENSOR-GET-END]
+	//[INTERATION-EA-EVENT-END-devido à herança de intentservice]
+
 	// the unit of duration is millisecond
 	/**
 	 * Calculate speed.
@@ -326,7 +382,7 @@ public class ContextManager extends IntentService {
 		double result=d/(duration/1000.0);
 		return result;
 	}
-	
+
 	/**
 	 * Check whether a specific MAC address is contained in a list.
 	 * @param macList the list of MAC addresses
@@ -341,7 +397,7 @@ public class ContextManager extends IntentService {
 		}
 		return false;
 	}
-	
+
 	/**
 	 * Transform a list of strings to an array of strings.
 	 *
@@ -355,37 +411,69 @@ public class ContextManager extends IntentService {
 		}
 		return s;
 	}
-	
+
 	/** indicate whether the service is running or not*/
-	
+
 	public static boolean isRunning(){
 		return ContextManager.running;
 	}
-	
+
 	/**
 	 * The Class MyBroadcastReceiver.
 	 */
-	private class MyBroadcastReceiver extends BroadcastReceiver{
+	//[THREAD-EA-BEGIN-Verificar dispositivos]
+	//[RG-SENSOR-LISTENER-BEGIN-Bluetooth]
+	public class MyBroadcastReceiver extends BroadcastReceiver{
 
 		@Override
+		//[INTERATION-EA-EVENT-BEGIN-devido ao listener com filtro para Bluetooth]
+		//[RG-SENSOR-CHANGED-BEGIN-Bluetooth]
 		public void onReceive(Context c, Intent i) {
+			//[GA-MONITOR-BEGIN-coleta informações dos dispositivos de bluetooth conectados]
+			//[GA-MONITOR-GETDATA-BEGIN-Bluetooth]
 			String action=i.getAction();
+			//[GA-KNOWLEDGE-ESTATICO-BEGIN-verifica o tipo de ação do recurso gerenciado]
 			if(action.equals(BluetoothAdapter.ACTION_DISCOVERY_STARTED)){
-				mBtDeviceList=new ArrayList<String>();
-			} else if( action.equals(BluetoothDevice.ACTION_FOUND)){
+				mBtDeviceList = new ArrayList<String>();
+				SaidaDoCasoDeTeste = new SaidaDoCasoDeTeste();
+				SaidaDoCasoDeTeste.setBtDeviceList(mBtDeviceList);
+				/* Log de contexto para analise  */
+				Log.i("Testing-SA-Sensor-BT", "BluetoothAdapter.ACTION_DISCOVERY_STARTED");
+			}
+			else if( action.equals(BluetoothDevice.ACTION_FOUND)){
+				//[GA-MONITOR-PREPROCESS-BEGIN - verifica se o bluetooth encontrado está presente na lista de dispositivos]
 				BluetoothDevice device=i.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
+				Log.i("Testing-SA-Sensor-BT", "BluetoothDevice.EXTRA_DEVICE");
+
 				if(!listContainsMac(mBtDeviceList, device.getAddress())){
 					mBtDeviceList.add(device.getAddress());
+					SaidaDoCasoDeTeste.setBtDeviceList(mBtDeviceList);
 				}
-			} else if(action.equals(BluetoothAdapter.ACTION_DISCOVERY_FINISHED)){
-			} else if(action.equals("edu.hkust.cse.phoneAdapter.stopService")){
+				//[GA-MONITOR-PREPROCESS-END - verifica se o bluetooth encontrado está presente na lista de dispositivos]
+			}
+			else if(action.equals(BluetoothAdapter.ACTION_DISCOVERY_FINISHED)){
+				Log.i("Testing-SA-Sensor-BT", "BluetoothAdapter.ACTION_DISCOVERY_FINISHED");
+			}
+			else if(action.equals("edu.hkust.cse.phoneAdapter.stopService")){
 				mStop=true;
 				stopSelf();
-			} else {
 			}
+			else {
+			}
+
+			if(EmTeste)
+				return;
+			//[GA-KNOWLEDGE-ESTATICO-END-verifica o tipo de ação do recurso gerenciado]
+			//[GA-MONITOR-GETDATA-END-Bluetooth]
+			//[GA-MONITOR-END-coleta informações dos dispositivos de bluetooth conectados]
 		}
+		//[RG-SENSOR-CHANGED-END-Bluetooth]
+		//[INTERATION-EA-EVENT-END-devido ao listener com filtro para Bluetooth]
 	}
-	
+	//[RG-SENSOR-LISTENER-END-Bluetooth]
+	//[THREAD-EA-END-Verificar dispositivos]
+
+
 	/**
 	 * The listener interface for receiving myLocation events.
 	 * The class that is interested in processing a myLocation
@@ -397,31 +485,52 @@ public class ContextManager extends IntentService {
 	 *
 	 * @see MyLocationEvent
 	 */
-	private class MyLocationListener implements LocationListener{
+	//[GA-MONITOR-BEGIN-coleta informações da localização do gps]
+	//[THREAD-EA-BEGIN-Verificar localização]
+	//[RG-SENSOR-LISTENER-BEGIN-GPS]
+	public class MyLocationListener implements LocationListener{
 
 		@Override
+		//[INTERATION-EA-EVENT-BEGIN-devido à mudança de localização]
+		//[RG-SENSOR-CHANGED-BEGIN-GPS]
 		public void onLocationChanged(Location loc) {
+
+			Log.i("Testing-SA-Sensor-GPS", "onLocationChanged");
+			Log.d("Testing-SA-Sensor-GPS", "onLocationChanged");
+
 			/*
 			 * sense the current location, caculate speed, and set the current time
 			 */
+			//[GA-MONITOR-GETDATA-BEGIN-GPS]
 			mLocation=loc.getLatitude()+","+loc.getLongitude();
-			
+			SaidaDoCasoDeTeste = new SaidaDoCasoDeTeste();
+			SaidaDoCasoDeTeste.setLocalizacao(loc);
+			//[GA-MONITOR-GETDATA-END-GPS]
+
 			/* calculate speed and update current time */
+			//[GA-MONITOR-PREPROCESS-BEGIN - obtêm velocidade e tempo entre a ultima localização e a atual]
 			long curTime=System.currentTimeMillis();
+			//[GA-KNOWLEDGE-ESTATICO-BEGIN-verifica se ultimo tempo diferente de zero]
 			if(mLastTime!=0 && mLastLocation!=null){
 				int duration=(int)(curTime-mLastTime);
 				mSpeed=calculateSpeed(mLastLocation, mLocation, duration);
 			} else{
 				mSpeed=-1;
 			}
-			
+			//[GA-KNOWLEDGE-ESTATICO-END-verifica se ultimo tempo diferente de zero]
 			mLastLocation=mLocation;
 			mLastTime=curTime;
+			//[GA-MONITOR-PREPROCESS-END - obtêm velocidade e tempo entre a ultima localização e a atual]
+
+			if(EmTeste)
+				return;
 		}
+		//[RG-SENSOR-CHANGED-END-GPS]
+		//[INTERATION-EA-EVENT-END-devido à mudança de localização]
 
 		@Override
 		public void onProviderDisabled(String arg0) {
-			/* set mLocation to null, set last location to null and update last time to 0 */			
+			/* set mLocation to null, set last location to null and update last time to 0 */
 			mGpsAvailable=false;
 			mLocation=null;
 			mLastLocation=null;
@@ -435,7 +544,37 @@ public class ContextManager extends IntentService {
 
 		@Override
 		public void onStatusChanged(String arg0, int arg1, Bundle arg2) {
-			
+
 		}
 	}
+	//[RG-SENSOR-LISTENER-END-GPS]
+	//[THREAD-EA-END-Verificar localização]
+	//[GA-MONITOR-BEGIN-coleta informações da localização do gps]
+
+
+
+	//BENTO RAFAEL SIQUEIRA - TESTING
+	// Binder given to clients
+	private final IBinder mBinder = new ContextManagerBinder();
+	@Override
+	public IBinder onBind(Intent intent) {
+		// If the Intent comes with a seed for the number generator, apply it.
+		//if (intent.hasExtra(SEED_KEY)) {
+		//	mSeed = intent.getLongExtra(SEED_KEY, 0);
+		//	mGenerator.setSeed(mSeed);
+		//}
+		return mBinder;
+	}
+
+	public class ContextManagerBinder extends Binder {
+
+		public ContextManager getService() {
+			// Return this instance of LocalService so clients can call public methods.
+			return ContextManager.this;
+		}
+	}
+
+
+
 }
+//[SERVICE-EA-END-ContextManager]

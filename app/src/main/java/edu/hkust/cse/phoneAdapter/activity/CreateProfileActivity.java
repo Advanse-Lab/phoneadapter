@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.Toast;
 import android.widget.ToggleButton;
+
 import edu.hkust.cse.phoneAdapter.R;
 import edu.hkust.cse.phoneAdapter.database.MyDbAdapter;
 

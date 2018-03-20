@@ -1,6 +1,5 @@
 package edu.hkust.cse.phoneAdapter.activity;
 
-import java.util.ArrayList;
 import android.app.Activity;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -14,6 +13,9 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+
 import edu.hkust.cse.phoneAdapter.R;
 import edu.hkust.cse.phoneAdapter.context.ContextOperator;
 import edu.hkust.cse.phoneAdapter.context.ContextType;

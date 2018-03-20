@@ -4,6 +4,9 @@ ADDED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidMan
 INJECTED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:2:1-32:12
 INJECTED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:2:1-32:12
 INJECTED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [com.android.support.test:rules:0.4.1] /home/dsanmartins/.gradle/caches/transforms-1/files-1.1/rules-0.4.1.aar/5a6b5def9263e82111fc5d91df4a18af/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support.test:runner:0.4.1] /home/dsanmartins/.gradle/caches/transforms-1/files-1.1/runner-0.4.1.aar/c546f0cc73b2992ada60225c3834d5c5/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support.test:exposed-instrumentation-api-publish:0.4.1] /home/dsanmartins/.gradle/caches/transforms-1/files-1.1/exposed-instrumentation-api-publish-0.4.1.aar/2634fc626d3a35434f34475033f36bc3/AndroidManifest.xml:17:1-26:12
 INJECTED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:2:1-32:12
 INJECTED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:2:1-32:12
 INJECTED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:2:1-32:12
@@ -25,6 +28,12 @@ uses-sdk
 ADDED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:5:5-43
 INJECTED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:5:5-43
 INJECTED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support.test:rules:0.4.1] /home/dsanmartins/.gradle/caches/transforms-1/files-1.1/rules-0.4.1.aar/5a6b5def9263e82111fc5d91df4a18af/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.test:rules:0.4.1] /home/dsanmartins/.gradle/caches/transforms-1/files-1.1/rules-0.4.1.aar/5a6b5def9263e82111fc5d91df4a18af/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.test:runner:0.4.1] /home/dsanmartins/.gradle/caches/transforms-1/files-1.1/runner-0.4.1.aar/c546f0cc73b2992ada60225c3834d5c5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test:runner:0.4.1] /home/dsanmartins/.gradle/caches/transforms-1/files-1.1/runner-0.4.1.aar/c546f0cc73b2992ada60225c3834d5c5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test:exposed-instrumentation-api-publish:0.4.1] /home/dsanmartins/.gradle/caches/transforms-1/files-1.1/exposed-instrumentation-api-publish-0.4.1.aar/2634fc626d3a35434f34475033f36bc3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test:exposed-instrumentation-api-publish:0.4.1] /home/dsanmartins/.gradle/caches/transforms-1/files-1.1/exposed-instrumentation-api-publish-0.4.1.aar/2634fc626d3a35434f34475033f36bc3/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:5:5-43
 INJECTED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:5:5-43
 	android:targetSdkVersion
@@ -57,6 +66,10 @@ ADDED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidMan
 		ADDED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:10:22-78
 application
 ADDED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:12:5-31:19
+MERGED from [com.android.support.test:runner:0.4.1] /home/dsanmartins/.gradle/caches/transforms-1/files-1.1/runner-0.4.1.aar/c546f0cc73b2992ada60225c3834d5c5/AndroidManifest.xml:24:5-20
+MERGED from [com.android.support.test:runner:0.4.1] /home/dsanmartins/.gradle/caches/transforms-1/files-1.1/runner-0.4.1.aar/c546f0cc73b2992ada60225c3834d5c5/AndroidManifest.xml:24:5-20
+MERGED from [com.android.support.test:exposed-instrumentation-api-publish:0.4.1] /home/dsanmartins/.gradle/caches/transforms-1/files-1.1/exposed-instrumentation-api-publish-0.4.1.aar/2634fc626d3a35434f34475033f36bc3/AndroidManifest.xml:24:5-20
+MERGED from [com.android.support.test:exposed-instrumentation-api-publish:0.4.1] /home/dsanmartins/.gradle/caches/transforms-1/files-1.1/exposed-instrumentation-api-publish-0.4.1.aar/2634fc626d3a35434f34475033f36bc3/AndroidManifest.xml:24:5-20
 	android:label
 		ADDED from /home/dsanmartins/StudioProjects/PhoneAdapter/app/src/main/AndroidManifest.xml:12:48-80
 	android:icon

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/dsanmartins/.gradle/caches/transforms-1/files-1.1/rules-0.4.1.aar/5a6b5def9263e82111fc5d91df4a18af/res/values/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "287",
+                        "endColumns": "45",
+                        "endOffsets": "328"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                }
+            ]
+        }
+    ]
+}
