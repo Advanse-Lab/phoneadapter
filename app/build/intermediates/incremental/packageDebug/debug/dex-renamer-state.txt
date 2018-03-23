@@ -1,4 +1,4 @@
-#Tue Mar 20 12:04:32 BRT 2018
+#Thu Mar 22 21:04:42 BRT 2018
 base.0=/home/dsanmartins/StudioProjects/PhoneAdapter/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

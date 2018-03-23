@@ -63,9 +63,12 @@ public class MyDbHelper extends SQLiteOpenHelper {
 		database.execSQL(CREATE_CONTEXT_CONSTANT_TABLE);
 		try
         {
-            InputStream is = context.getResources().getAssets().open("SQLScript.sql");
-            String sql= convertStreamToString(is);
-            database.execSQL(sql);
+            InputStream is = context.getResources().getAssets().open("script.sql");
+            String sql[]= convertStreamToString(is).split("\\r?\\n");
+            for (String line : sql) {
+                if (line.startsWith("INSERT"))
+                    database.execSQL(line);
+            }
         }catch (IOException ex)
         {
             ex.printStackTrace();
